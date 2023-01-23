@@ -37,6 +37,7 @@ section {
 
 p {
     margin: 0.2rem auto;
+    line-height: 1.5;
 }
 
 hr {
