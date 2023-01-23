@@ -21,7 +21,8 @@ h2 {
 
 main {
     display: grid;    /* css grid 사용 */
-    grid-template-columns: 30% 70%; /* 왼쪽 40%, 오른쪽 60% */
+    /* grid-template-columns: 30% 70%; 왼쪽 40%, 오른쪽 60% */
+    grid-template-columns: 250px 650px;
     margin-top: 3rem;
 }
 
@@ -56,3 +57,5 @@ i {
 #mainLeft {
     border-right: 1px solid lightgray;
 }
+
+a { text-decoration: none; }
